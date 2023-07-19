@@ -6,12 +6,12 @@ const Footer = () => {
       <div>
         <div className="space-y-4">
           <h4 className="text-xl font-semibold">
-            Toy At Heart Industries LTD.
+            Tech~No~Logic Industries LTD.
             <br />
             Providing reliable tech since 2004.
           </h4>
           <p className="footer text-start md:footer-center  text-white">
-            Copyright © 2023 - All right reserved by Toy At Heart Industries Ltd.
+            Copyright © 2023 - All right reserved by Tech~No~Logic Industries Ltd.
           </p>
         </div>
       </div>

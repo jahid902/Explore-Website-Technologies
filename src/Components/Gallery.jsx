@@ -19,7 +19,7 @@ const Gallery = () => {
         data-aos="zoom-in-up"
         data-aos-duration="1000"
         data-aos-delay="50"
-        className="grid grid-cols-2 md:grid-cols-3 gap-5 rounded-lg  p-6"
+        className="grid grid-cols-1 md:grid-cols-3 gap-5 rounded-lg  p-6"
       >
         <div className="h-64 md:h-96 bg-slate-200 rounded-lg">
           <img

@@ -1,8 +1,16 @@
-
-
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+  const [color, setColor] = useState(true);
+
+  const toggleColor = () => {
+    setColor(!color)
+    document.body.attributes[0].value = color ? 'dark' : 'light';
+  }
+
+
   return (
     <div className="navbar-container">
       <div className="flex items-center tracking-wider font-bold">
@@ -21,7 +29,7 @@ const Navbar = () => {
       </ul>
 
       <div>
-        <button className="btn-common">Learn More</button>
+        <button onClick={()=> toggleColor()} className="btn-common">{color ? "Dark Mode" : "Light Mode"}</button>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import Gallery from "./Gallery";
+import Technologies from "./Technologies";
 
 const Home = () => {
   return (
@@ -34,6 +35,11 @@ const Home = () => {
     {/* Gallery component */}
         <section className="my-12 md:mt-44 mb-16">
         <Gallery></Gallery>
+        </section>
+
+        {/* Techs section */}
+        <section className="my-12 md:mt-44 mb-16">
+        <Technologies></Technologies>
         </section>
     </>
   );

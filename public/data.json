@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "path/to/wordpress-image.jpg",
+    "image": "https://c1.wallpaperflare.com/preview/979/823/791/wordpress-social-media-blog-website.jpg",
     "name": "WordPress",
     "description": "A popular content management system (CMS) that allows users to create, manage, and update website content easily.",
     "users": "75 million+",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "image": "path/to/joomla-image.jpg",
+    "image": "https://jobstodos3.s3.eu-west-1.amazonaws.com/2020/10/Joomla-3D-Vertical-logo-light-background-en.png",
     "name": "Joomla",
     "description": "An open-source CMS empowering users to build dynamic websites and powerful online applications.",
     "users": "3 million+",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "image": "path/to/drupal-image.jpg",
+    "image": "https://images.squarespace-cdn.com/content/v1/551d16d4e4b0f5016a218c6e/1437720826784-X2310K7UA9Z7DFQFUIZ8/image-asset.jpeg?format=1500w",
     "name": "Drupal",
     "description": "A flexible CMS known for its scalability, allowing users to build complex websites and applications.",
     "users": "1.4 million+",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "image": "path/to/html-css-js-image.jpg",
+    "image": "https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2020/05/Logo.png?fit=1920%2C990&ssl=1",
     "name": "HTML, CSS, JavaScript",
     "description": "The foundational technologies of web development, HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript enable the creation and interactivity of web pages.",
     "users": "Virtually every website on the internet",
@@ -52,11 +52,11 @@
     "jobs": "In-demand skill with a thriving job market",
     "performance": "Optimized rendering and efficient DOM updates",
     "lastRelease": "October 2021",
-    "founder": "Jordan Walke"
+    "founder": "Jordan Walker"
   },
   {
     "id": 6,
-    "image": "path/to/angular-image.jpg",
+    "image": "https://repository-images.githubusercontent.com/314186076/79a18fff-1aeb-4a12-9340-db81b383b5e7",
     "name": "Angular",
     "description": "A comprehensive TypeScript-based framework for building scalable web applications, offering powerful features like data binding and dependency injection.",
     "users": "Google, Microsoft, IBM, and numerous enterprises",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "image": "path/to/vuejs-image.jpg",
+    "image": "https://miro.medium.com/v2/resize:fit:900/1*OrjCKmou1jT4It5so5gvOA.jpeg",
     "name": "Vue.js",
     "description": "A progressive JavaScript framework for building user interfaces, known for its simplicity, flexibility, and easy integration into existing projects.",
     "users": "Alibaba, Xiaomi, Xiaomi, and many startups",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "image": "path/to/python-image.jpg",
+    "image": "https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png",
     "name": "Python",
     "description": "A versatile and beginner-friendly programming language used for back-end web development, data analysis, and automation.",
     "users": "Large and diverse community of developers",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "image": "path/to/php-image.jpg",
+    "image": "https://www.interviewbit.com/blog/wp-content/uploads/2021/06/key-reasons-for-using-php-1024x665.png",
     "name": "PHP",
     "description": "A popular server-side scripting language used for web development, known for its wide adoption and extensive documentation.",
     "users": "Millions of websites powered by PHP",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "image": "path/to/ruby-image.jpg",
+    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190902124355/ruby-programming-language.png",
     "name": "Ruby",
     "description": "A dynamic, object-oriented programming language used for web development, emphasizing simplicity and productivity.",
     "users": "GitHub, Airbnb, Shopify, and many startups",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "image": "path/to/nodejs-image.jpg",
+    "image": "https://colorlib.com/wp-content/uploads/sites/2/nodejs-frameworks.png",
     "name": "Node.js",
     "description": "An open-source JavaScript runtime environment used for server-side and network applications, enabling JavaScript to run on the server.",
     "users": "Netflix, LinkedIn, Uber, and many others",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "image": "path/to/mysql-image.jpg",
+    "image": "https://www.elearningworld.org/wp-content/uploads/2019/04/MySQL.svg.png",
     "name": "MySQL",
     "description": "A popular open-source relational database management system (RDBMS) known for its stability, performance, and ease of use.",
     "users": "Used by a wide range of websites and applications",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "image": "path/to/postgresql-image.jpg",
+    "image": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_251be2af3ae607c45c14e816eaa1cf41/postgresql.png",
     "name": "PostgreSQL",
     "description": "An advanced open-source relational database management system (RDBMS) known for its robustness, extensibility, and adherence to SQL standards.",
     "users": "Various organizations and enterprises worldwide",
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "image": "path/to/mongodb-image.jpg",
+    "image": "https://static.javatpoint.com/mongodb/images/mongodb-tutorial.jpg",
     "name": "MongoDB",
     "description": "A flexible and scalable NoSQL database, using a document-oriented model, ideal for handling large volumes of unstructured data.",
     "users": "Adobe, Cisco, eBay, and numerous startups",
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "image": "path/to/sqlite-image.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png",
     "name": "SQLite",
     "description": "A lightweight, serverless, and self-contained database engine widely used for embedded systems and simple web applications.",
     "users": "Numerous applications and frameworks utilize SQLite",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "image": "path/to/git-image.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png",
     "name": "Git",
     "description": "A widely adopted distributed version control system that enables developers to track changes, collaborate, and manage code repositories efficiently.",
     "users": "Used by millions of developers worldwide",
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "image": "path/to/apache-image.jpg",
+    "image": "https://webhostinggeeks.com/blog/wp-content/uploads/2023/05/Apache_HTTP_Server.png",
     "name": "Apache",
     "description": "The most widely used open-source web server software, known for its stability, security, and compatibility with various operating systems.",
     "users": "Dominant market share in web server usage",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "image": "path/to/nginx-image.jpg",
+    "image": "https://www.nginx.com/wp-content/uploads/2018/08/NGINX-logo-rgb-large.png",
     "name": "Nginx",
     "description": "A high-performance open-source web server and reverse proxy server known for its scalability, speed, and efficient handling of concurrent connections.",
     "users": "Popular choice for high-traffic websites and applications",
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "image": "path/to/microsoft-iis-image.jpg",
+    "image": "https://d22e4d61ky6061.cloudfront.net/sites/default/files/Microsoft%20IIS_1.png",
     "name": "Microsoft IIS",
     "description": "A web server software developed by Microsoft, providing a secure and reliable platform for hosting websites and web applications on Windows servers.",
     "users": "Windows-based hosting environments and enterprises",
@@ -210,7 +210,7 @@
   },
   {
     "id": 20,
-    "image": "path/to/chrome-devtools-image.jpg",
+    "image": "https://miro.medium.com/v2/resize:fit:1006/1*KxqjyxBb8HDh8pBP7W1Xag.png",
     "name": "Chrome DevTools",
     "description": "Built-in developer tools in the Google Chrome browser, offering a suite of features for inspecting, debugging, and profiling web pages and applications.",
     "users": "Web developers and designers using Google Chrome",
@@ -221,7 +221,7 @@
   },
   {
     "id": 21,
-    "image": "path/to/selenium-image.jpg",
+    "image": "https://www.perfecto.io/sites/default/files/image/2020-09/social-blog-what-to-expect-with-selenium-2.jpg",
     "name": "Selenium",
     "description": "An open-source framework for automating web browsers, allowing developers to perform automated testing and browser-based interactions.",
     "users": "Testers, developers, and automation engineers",
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "image": "path/to/jest-image.jpg",
+    "image": "https://jestjs.io/img/opengraph.png",
     "name": "Jest",
     "description": "A JavaScript testing framework with a focus on simplicity and ease of use, providing built-in assertions, mocks, and code coverage analysis.",
     "users": "JavaScript developers and testers",
@@ -243,7 +243,7 @@
   },
   {
     "id": 23,
-    "image": "path/to/bootstrap-image.jpg",
+    "image": "https://getbootstrap.com/docs/5.3/assets/img/bootstrap-icons.png",
     "name": "Bootstrap",
     "description": "A popular front-end framework offering a collection of CSS and JavaScript components, enabling developers to create responsive and visually appealing websites with ease.",
     "users": "Web developers and designers globally",
@@ -254,7 +254,7 @@
   },
   {
     "id": 24,
-    "image": "path/to/foundation-image.jpg",
+    "image": "https://get.foundation/assets/img/learn/features/svgs/code-reduction-01.svg",
     "name": "Foundation",
     "description": "A responsive front-end framework that provides a comprehensive set of customizable CSS and JavaScript components for building modern websites and applications.",
     "users": "Web developers and designers worldwide",
@@ -265,7 +265,7 @@
   },
   {
     "id": 25,
-    "image": "path/to/material-ui-image.jpg",
+    "image": "https://mui.com/static/logo.png",
     "name": "Material-UI",
     "description": "A popular React component library implementing Google's Material Design guidelines, offering pre-built UI elements for creating visually stunning and consistent web interfaces.",
     "users": "Web developers leveraging React and Material Design",

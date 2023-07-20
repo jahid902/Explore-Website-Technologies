@@ -20,7 +20,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/tech/:id',
-        element: <TechDetail></TechDetail>
+        element: <TechDetail></TechDetail>,
+        loader: ()=> fetch('/data.json')
       }
     ])
   },
@@ -28,6 +29,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div className='font-serif'>
     <RouterProvider router={router} />
+    </div>
   </React.StrictMode>,
 )

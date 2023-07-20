@@ -13,7 +13,7 @@ const Technologies = () => {
     fetch('data.json')
     .then(res=> res.json())
     .then(data=> setTechs(data))
-  },[])
+  },[techs])
 
   return (
     <>
@@ -34,7 +34,7 @@ const Technologies = () => {
           data-aos-delay="200"
           className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mt-16"
         >
-          {techs.slice(0, show ? 25 : 6).map((tech) => (
+          {techs.slice(0, show ? 25 : 9).map((tech) => (
             
               <div
               key={tech?.id}
@@ -43,9 +43,9 @@ const Technologies = () => {
                 <img
                   src={tech?.image}
                   alt="tech Image"
-                  className="object-cover w-full h-80 md:h-80 xl:h-80"
+                  className="object-fit w-full h-80 md:h-80 xl:h-80"
                 />
-                <div className="bg-sky-900 px-6 py-4 bg-opacity-80 opacity-0 hover:opacity-100 text-white text-center absolute inset-0 transition-opacity duration-500 flex flex-col">
+                <div className="bg-sky-900 px-6 py-4 bg-opacity-80 opacity-0 hover:opacity-100 text-white text-center absolute inset-0 transition-opacity duration-500 flex flex-col justify-center">
                   <p className="font-bold text-md">Name : {tech?.name}</p>
                   <br />
                   <p className="font-bold text-md">

@@ -1,5 +1,3 @@
-
-
 const Footer = () => {
   return (
     <div className="footer p-10  bg-sky-700 text-white rounded-md">
@@ -11,7 +9,8 @@ const Footer = () => {
             Providing reliable tech since 2004.
           </h4>
           <p className="footer text-start md:footer-center  text-white">
-            Copyright © 2023 - All right reserved by Tech~No~Logic Industries Ltd.
+            Copyright © 2023 - All right reserved by Tech~No~Logic Industries
+            Ltd.
           </p>
         </div>
       </div>

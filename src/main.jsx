@@ -1,36 +1,33 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import MainLayout from './Layout/MainLayout';
-import Home from './Components/Home';
-import TechDetail from './Components/TechDetail';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
+import Home from "./Components/Home";
+import TechDetail from "./Components/TechDetail";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    children: ([
+    children: [
       {
-        path: '/',
-        element: <Home></Home>
+        path: "/",
+        element: <Home></Home>,
       },
       {
-        path: '/tech/:id',
+        path: "/tech/:id",
         element: <TechDetail></TechDetail>,
-        loader: ()=> fetch('/data.json')
-      }
-    ])
+        loader: () => fetch("/data.json"),
+      },
+    ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className='font-serif'>
-    <RouterProvider router={router} />
+    <div className="font-serif">
+      <RouterProvider router={router} />
     </div>
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

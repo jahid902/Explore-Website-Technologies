@@ -10,9 +10,9 @@ const Gallery = () => {
           Some Popular Technologies
         </h1>
         <p className="text-lg ">
-          The Power of Website Development Technologies is to Create
-          Visually Stunning, User-Friendly Websites That Captivate Your Audience
-          and Drive Business Growth.
+          The Power of Website Development Technologies is to Create Visually
+          Stunning, User-Friendly Websites That Captivate Your Audience and
+          Drive Business Growth.
         </p>
       </div>
       <div
